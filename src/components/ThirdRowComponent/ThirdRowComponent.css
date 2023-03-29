@@ -1,0 +1,32 @@
+.tclass
+{
+    /* width: 670px; */
+    /* height: 58px; */
+    /* left: 385px;
+    top: 1112px; */
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 58px;
+    color: #0F2B4A;
+}
+@font-face {
+    font-family: myFirstFont1;
+    src: url('../../fonts/LTInternet-Bold.ttf');
+  }
+  .cardGroup
+  {
+    border: 40px solid #FEFEFE;
+    height: 300px;
+    background-color: #fbfbfb;
+  }
+  .titleClass
+  {
+    font-size: 26px;
+  }
+  .iClass
+  {
+    height: 100px;
+    width: 100px;
+  }

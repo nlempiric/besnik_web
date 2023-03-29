@@ -1,0 +1,27 @@
+.nav-link
+{
+    color:#0F2B4A;
+    font-weight: 400;
+    font-family:"Roboto";
+}
+.sin:hover
+{
+    background-color: white;
+    color: #007bff;
+}
+.nav-link:active
+{
+    font-weight: 500;
+}
+
+
+@font-face {
+    font-family: myFirstFont;
+    src: url('../../fonts/Roboto-Regular.ttf');
+  }
+  
+
+  
+.headerNav {
+    font-family: myFirstFont;
+  }

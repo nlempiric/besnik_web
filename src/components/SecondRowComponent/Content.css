@@ -1,0 +1,50 @@
+.h1tag
+{
+    display: flex;
+    align-items: flex-start;
+    text-align: left;
+    font-weight: 600;
+    font-size: 80px;
+    line-height: 86px;
+    /* font-family: myFirstFont1; */
+}
+.desc
+{
+    font-family: 'Roboto';
+    text-align: left;
+    font-size: 20px;
+    font-weight: 400;
+    
+}
+.SearchField
+{
+    border-radius: 6px;
+    border: 1px solid #e6f2ff ;
+    
+    color: #0F2B4A;
+
+
+
+}
+input
+{
+    width: 100px;
+    border: none;
+    
+}
+
+.SearchField button
+{
+    height: 50px;
+    width: 100px;
+
+}
+.SearchField button:hover
+{
+    background-color: white;
+    color: #007bff;
+}
+@font-face {
+    font-family: myFirstFont1;
+    src: url('../../fonts/LTInternet-Bold.ttf');
+  }
