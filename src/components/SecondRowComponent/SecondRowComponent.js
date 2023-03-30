@@ -1,7 +1,8 @@
 import React from 'react'
 import Content from './Content'
 import Imagecontent from './Imagecontent'
-import Carousel from './Carousel'
+import Logo from './Logo'
+
 const SecondRowComponent = () => {
   return (
     <div>
@@ -14,7 +15,7 @@ const SecondRowComponent = () => {
         </div>
     </div>
     <div className='row mt-5'>
-      <Carousel></Carousel>
+      <Logo></Logo>
     </div>
      </div> 
     

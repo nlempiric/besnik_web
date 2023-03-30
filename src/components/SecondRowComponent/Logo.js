@@ -5,7 +5,7 @@ import i3 from '../../Images/image 529.png'
 import i4 from '../../Images/image 530.png'
 import i5 from '../../Images/image 531.png'
 
-const Carousel = () => {
+const Logo = () => {
   return (
     <div className='row mt-5 '>
       {/* <div className='col-3 p-3'>
@@ -45,4 +45,4 @@ const Carousel = () => {
   )
 }
 
-export default Carousel
+export default Logo

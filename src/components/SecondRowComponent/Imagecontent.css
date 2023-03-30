@@ -4,10 +4,10 @@
     background: transparent;
    
 }
-.typoClass
+/* .typoClass
 {
     font-family: myFirstFont1;
-}
+} */
 .cardClass
 {
     position:absolute;
@@ -34,4 +34,9 @@ span{
 .igClass
 {
     width: 100px;
+}
+.iconClass
+{
+    color: #2289FF;
+    padding: 5px;
 }

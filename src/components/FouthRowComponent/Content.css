@@ -29,16 +29,3 @@
     background-color: white;
     color: #007bff;
 }
-.imgClass
-{
-    border-radius: 6px;
-    
-}
-@font-face {
-    font-family: myFirstFont1;
-    src: url('../../fonts/Roboto-Regular.ttf');
-  }
-  .cClass
-  {
-    border:20px solid rgb(253, 253, 253);
-  }

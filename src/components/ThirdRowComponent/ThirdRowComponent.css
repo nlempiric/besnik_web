@@ -1,10 +1,5 @@
 .tclass
 {
-    /* width: 670px; */
-    /* height: 58px; */
-    /* left: 385px;
-    top: 1112px; */
-
     font-style: normal;
     font-weight: 600;
     font-size: 48px;
@@ -18,15 +13,21 @@
   .cardGroup
   {
     border: 40px solid #FEFEFE;
-    height: 300px;
+    height: 400px;
     background-color: #fbfbfb;
   }
   .titleClass
   {
     font-size: 26px;
+    color: #0F2B4A
   }
   .iClass
   {
     height: 100px;
     width: 100px;
+  }
+  .ctextClass
+  {
+    color: #576B81;
+    font-size: 18px;
   }

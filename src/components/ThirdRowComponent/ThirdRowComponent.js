@@ -15,25 +15,25 @@ const ThirdRowComponent = () => {
       <div className='row mt-5 d-flex flex-column'>
           <div class="card-group">
             <div class="card cardGroup d-flex flex-column align-items-center">
-              <img class="card-img-top iClass" src={i1} alt="Card image cap"/>
+              <img class="card-img-top iClass mt-5 mb-5" src={i1} alt="Card image cap"/>
               
-              <div class="card-body">
-                <h5 class="card-title titleClass">Buy a home</h5>
-                <p class="card-text">With over 1 million+ homes for sale available on the website, Trulia can match you with a house.</p>
+              <div class="card-body ">
+                <h5 class="card-title titleClass ">Buy a home</h5>
+                <p class="card-text ctextClass">With over 1 million+ homes for sale available on the website, Trulia can match you with a house.</p>
               </div>
             </div>
             <div class="card cardGroup d-flex flex-column align-items-center">
-              <img class="card-img-top iClass" src={i2} alt="Card image cap"/>
+              <img class="card-img-top iClass mt-5 mb-5" src={i2} alt="Card image cap"/>
               <div class="card-body">
                 <h5 class="card-title titleClass">Rent a home</h5>
-                <p class="card-text">With 35+ filters and custom keyword search, Trulia can help you find a home</p>
+                <p class="card-text ctextClass">With 35+ filters and custom keyword search, Trulia can help you find a home</p>
               </div>
             </div>
             <div class="card cardGroup d-flex flex-column align-items-center">
-              <img class="card-img-top iClass" src={i3} alt="Card image cap"/>
+              <img class="card-img-top iClass mt-5 mb-5" src={i3} alt="Card image cap"/>
               <div class="card-body ">
                 <h5 class="card-title titleClass">See neighborhoods</h5>
-                <p class="card-text">With more neighborhood insights than any other real estate website.</p>
+                <p class="card-text ctextClass">With more neighborhood insights than any other real estate website.</p>
               </div>
             </div>
           </div>

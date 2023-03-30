@@ -1,0 +1,35 @@
+.imgClass
+{
+    border-radius: 6px;
+    
+}
+
+.cClass
+{
+border:20px solid rgb(253, 253, 253);
+}
+.i1conClass
+{
+    padding-right: 10px;
+    color:  #2289FF;
+    font-size: 16px;
+}
+.spanClass
+{
+    padding-right: 60px;
+    font-size: 16px;
+}
+.priceClass
+{
+    color: #2289FF;
+    font-weight: 500;
+}
+.nClass
+{
+    color: #0F2B4A;
+}
+.cbodyClass p
+{
+    font-size: 20px;
+    color: #576B81;
+}
