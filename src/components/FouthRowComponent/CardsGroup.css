@@ -33,3 +33,7 @@ border:20px solid rgb(253, 253, 253);
     font-size: 20px;
     color: #576B81;
 }
+.MyCustomButton svg:hover
+{
+    color: red;
+}

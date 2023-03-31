@@ -6,8 +6,8 @@ import CardCarosuel from './CardCarosuel'
 const FifthRowComponent = () => {
   return (
     <>
-        <div className='row mt-5'>
-            <img src={bi} alt="" style={{position:'relative' }}/>
+        <div className='row my-5'>
+            <img src={bi} alt="" style={{position:'relative',padding:'0' }} width='100%'/>
             <div className='d-flex flex-column justify-content-around align-item-center' style={{position:'absolute'}}> 
                 <div className='row txtClass d-flex justify-content-around mt-5 mb-4 pt-5'>
                         TESTIMONIALS

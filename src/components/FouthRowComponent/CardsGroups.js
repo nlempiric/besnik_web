@@ -6,8 +6,7 @@ import i3 from '../../Images/pexels-expect-best-1193714 1.png'
 import i4 from '../../Images/pexels-melina-vargas-2360948 1.png'
 import FavoriteIcon from '@mui/icons-material/Favorite';
 import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
-
-import { fontSize } from '@mui/system'
+import IconButton from '@mui/material/IconButton'
 
 const CardsGroups = () => {
   return (
@@ -125,7 +124,11 @@ const CardsGroups = () => {
                         <div class="card-body cbodyClass">
                                 <div className='d-flex flex-row priceClass justify-content-between mb-2'>
                                     <h3>$329,000</h3> 
-                                    <FavoriteBorderIcon style={{border:'1px solid #2289FF',borderRadius:'6px' ,height:'25px',width:'25px'}}/>
+                                    <IconButton className='MyCustomButton'>
+                                    <FavoriteBorderIcon style={{border:'1px solid #2289FF', color:'#2289FF',borderRadius:'6px' ,height:'25px',width:'25px'}}/> 
+                                    </IconButton>
+
+                                    {/* <FavoriteBorderIcon style={{border:'1px solid #2289FF',borderRadius:'6px' ,height:'25px',width:'25px'}}/> */}
                                 </div>
                                 <div className='d-flex flex-row nClass mt-2'>
                                     <h3>Clinton Villa</h3> 

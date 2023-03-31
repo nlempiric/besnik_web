@@ -5,9 +5,10 @@ import './Footer.css'
 const Footer = () => {
   return (
     <>
+    {/* <div className='row mt-5'> */}
     <div className='mt-5 container-fluid col-xl-10 col-lg-11' style={{height:'455px'}}>
    
-      <div className='d-flex flex-row justify-content-between align-items-center fClass mt-5 mb-5'>
+      <div className='d-flex justify-content-between  fClass mt-5 mb-5'>
         <div className='d-flex flex-column text-start'>
             <h3>Popular Searches</h3>
             <p>Apartment for Rent</p>
@@ -45,6 +46,7 @@ const Footer = () => {
         </div>
     </div>
     </div>
+    {/* </div> */}
     </>
   )
 }

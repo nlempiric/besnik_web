@@ -7,7 +7,7 @@ import i5 from '../../Images/image 531.png'
 
 const Logo = () => {
   return (
-    <div className='row mt-5 '>
+    <div className='row my-5 '>
       {/* <div className='col-3 p-3'>
       <img src={i1} alt="" />
       </div>

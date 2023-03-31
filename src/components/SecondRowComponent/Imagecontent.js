@@ -1,13 +1,10 @@
 import React from 'react'
 import './Imagecontent.css'
-import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import ci from '../../Images/webaliser-_TPTXZd9mOo-unsplash 1 (4).png'
 import HomeImage from '../../Images/Mask group.png'
 import {Typography} from '@mui/material'
-import { fontSize } from '@mui/system';
-import KingBedOutlinedIcon from '@mui/icons-material/KingBedOutlined';
-import ig from '../../Images/Group 4929.png'
+
 
 const Imagecontent = () => {
   return (

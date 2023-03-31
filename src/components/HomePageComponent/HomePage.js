@@ -6,6 +6,7 @@ import FouthRowComponent from '../FouthRowComponent/FouthRowComponent'
 import FifthRowComponent from '../FifthRowComponent/FifthRowComponent'
 import SixthRowComponent from '../SixthRowComponent/SixthRowComponent'
 import Footer from '../Footer/Footer'
+import './HomePage.css';
 
 
 const HomePage = () => {
@@ -14,27 +15,36 @@ const HomePage = () => {
     <Header></Header>
     
     <div className='container-fluid col-xl-10 col-lg-11'>
-      <div className='row '>
-          <SecondRowComponent/>
-      </div>
-      <div className='row mt-5'>
-          <ThirdRowComponent/>
-      </div>
         <div className='row mt-5'>
-            <FouthRowComponent/>
+            <SecondRowComponent/>
+        </div>
+        <div className='row my-5'>
+          <ThirdRowComponent/>
+        </div>
+        <div className='row my-5'>
+          <FouthRowComponent/>
+        </div>
+    
+    </div>
+    {/* <div className="container-fluid col-xl-10 col-lg-11"> */}
+    
+    <div className='row my-5'>
+        <FifthRowComponent/>
       </div>
-      
-    </div>
-    <div className='row mt-5'>
-          <FifthRowComponent/>
-    </div>
       <div className='row mt-5'>
-          <SixthRowComponent/>
-    </div>
+      <SixthRowComponent/>
+      </div>
+
+      <div className='row mt-5'>
+      <Footer/>
+        </div>     
+      
+            
+      
+    {/* </div> */}
     {/* <div className='container-fluid col-xl-10 col-lg-11'> */}
-    <div className='row mt-5'>
-          <Footer/>
-    </div>
+    
+          
     {/* </div> */}
    </>
   )

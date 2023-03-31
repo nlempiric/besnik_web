@@ -6,7 +6,7 @@ import Logo from './Logo'
 const SecondRowComponent = () => {
   return (
     <div>
-        <div className='row mt-5  pb-5'>
+        <div className='row mt-5 pb-5'>
           <div className='col-lg-6 mt-5 '>
             <Content></Content>
         </div>

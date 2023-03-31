@@ -1,7 +1,8 @@
 .rowClass
 {
     height: 360px;
-    background-color:  #0F2A47;;
+    background-color:  #0F2A47;
+    /* width: 100%; */
 }
 .p1Text
 {
